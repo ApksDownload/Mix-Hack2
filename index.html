@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>APK Download</title>
+
+    <!-- Google Font for Hacker Style -->
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Basic CSS Styling -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            font-family: 'VT323', monospace;
+            color: #00ff00;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Matrix effect */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://i.imgur.com/CVpljIl.png'); /* Matrix background */
+            opacity: 0.2;
+            z-index: -1;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 2px solid #00ff00;
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .download-btn, .telegram-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.5rem;
+            background-color: #00ff00;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover, .telegram-btn:hover {
+            background-color: black;
+            color: #00ff00;
+            border: 2px solid #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mix Hack V2.0</h1>
+        <img src="logo.png" alt="APK Logo"> <!-- Replace with actual APK logo -->
+        
+        <!-- Download Button -->
+        <a href="Mix Hack V2.0.apk" class="download-btn">Download APK</a>
+
+        <!-- Telegram Join Button -->
+        <a href="https://t.me/EarningScripter1" target="_blank" class="telegram-btn">Join Telegram</a>
+    </div>
+</body>
+</html>
